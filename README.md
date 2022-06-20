@@ -28,7 +28,7 @@ This project uses many tools like:
 Create the project.
 
 ```bash
-npx degit obleey/reactjs-vite-boilerplate
+npx degit obleey/reactjs-vite-boilerplate my-app
 ```
 
 Access the project directory.
