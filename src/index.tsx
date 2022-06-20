@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import 'tailwindcss/tailwind.css'
+import 'styles/shared/index.css'
 import { App } from 'components/shared/shared'
 
 const container = document.getElementById('root') as HTMLDivElement

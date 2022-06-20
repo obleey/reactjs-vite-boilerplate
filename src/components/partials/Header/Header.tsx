@@ -1,7 +1,14 @@
-import React from 'react'
+import { FC } from 'react'
+import { Link } from '@tanstack/react-location'
 
-const Header = () => {
-  return <div>Header</div>
+const Header: FC = () => {
+  return (
+    <header className="flex flex-row items-center w-full h-7">
+      <Link to="/login">login</Link>
+      <Link to="/signup">register</Link>
+      <Link to="/">home</Link>
+    </header>
+  )
 }
 
 export default Header

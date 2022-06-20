@@ -1,14 +1,16 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import { FC } from 'react'
+import isRestricted from 'routes/isRestricted'
+
+import { LoginForm } from 'components/user/user'
 
 interface Props {}
 
 const Login: FC<Props> = (props: Props) => {
   return (
     <div className="login">
-      <h1>Login</h1>
+      <LoginForm />
     </div>
   )
 }
 
-export default Login
+export default isRestricted(Login)

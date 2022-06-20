@@ -1,14 +1,16 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import { FC } from 'react'
+import isRestricted from 'routes/isRestricted'
+
+import { RegisterForm } from 'components/user/user'
 
 interface Props {}
 
 const Register: FC<Props> = (props: Props) => {
   return (
     <div className="register">
-      <h1>Register</h1>
+      <RegisterForm />
     </div>
   )
 }
 
-export default Register
+export default isRestricted(Register)
