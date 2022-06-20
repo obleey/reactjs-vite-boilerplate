@@ -1,0 +1,7 @@
+export { default as App } from 'components/shared/App/App'
+export { default as Button } from 'components/shared/Button/Button'
+export { default as Avatar } from 'components/shared/Avatar/Avatar'
+export { default as Input } from 'components/shared/Input/Input'
+export { default as Textarea } from 'components/shared/Textarea/Textarea'
+export { default as Select } from 'components/shared/Select/Select'
+export { default as Spinner } from 'components/shared/Spinner/Spinner'
