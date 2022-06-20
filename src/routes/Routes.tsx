@@ -10,6 +10,7 @@ export const routes: Route[] = [
       import('pages/Home/Home').then((module) => <module.default />)
   },
   {
+    //Private Routes
     path: '/login',
     element: () =>
       import('pages/Login/Login').then((module) => <module.default />)

@@ -2,8 +2,7 @@ import { FC } from 'react'
 import * as API from 'api/Api'
 import { useLoginForm } from 'lib/hooks/reac-hook-form/useLoginForm'
 
-import Button from 'components/shared/Button/Button'
-import Input from 'components/shared/Input/Input'
+import { Button,Input } from 'components/shared/shared'
 
 const LoginForm: FC = () => {
   const { errors, handleSubmit, register, reset } = useLoginForm()
