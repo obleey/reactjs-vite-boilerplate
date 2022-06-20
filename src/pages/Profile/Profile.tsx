@@ -1,5 +1,6 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import { FC } from 'react'
+import isPrivate from 'routes/isPrivate'
 
 interface Props {}
 
@@ -11,4 +12,4 @@ const Profile: FC<Props> = (props: Props) => {
   )
 }
 
-export default Profile
+export default isPrivate(Profile)

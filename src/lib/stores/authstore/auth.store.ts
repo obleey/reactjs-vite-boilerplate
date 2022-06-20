@@ -13,7 +13,6 @@ export interface AuthContextType {
 
 class AuthStore {
   isAuthenticated = false
-  isLoading = false
   user?: API.User = undefined
   error?: string | { [key: string]: string } = undefined
 
