@@ -68,7 +68,7 @@ yarn test
 ### Generate Component
 
 ```bash
-npm generate:component componentName
+yarn generate:component componentName
 ```
 
 will generate a component under the components folder
@@ -76,7 +76,7 @@ will generate a component under the components folder
 ### Generate Component:shared
 
 ```bash
-npm generate:component:shared componentName
+yarn generate:component:shared componentName
 ```
 
 will generate a component under the components/shared folder
@@ -84,7 +84,7 @@ will generate a component under the components/shared folder
 ### Generate page
 
 ```bash
-npm generate:page pageName
+yarn generate:page pageName
 ```
 
 will generate a page under the pages folder
