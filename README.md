@@ -92,7 +92,7 @@ will generate a page under the pages folder
 ### Start clean
 
 ```bash
-npm generate:page pageName
+yarn start:clean
 ```
 
 will delete yarn.lock file, node_modules, yarn-error.log, run yarn and yarn start
